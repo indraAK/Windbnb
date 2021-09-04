@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./src/images/devchallenges.png"
+      sizes="32x32"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Mulish:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/main.css" />
+    <title>Windbnb</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./src/images/logo.svg" alt="Windbnb logo" />
+        </a>
+        <div class="form-container">
+          <form id="searchForm">
+            <div class="form-group">
+              <div class="form-control location">
+                <label for="location">Location</label>
+                <input
+                  type="text"
+                  name="location"
+                  id="location"
+                  placeholder="Location"
+                />
+              </div>
+              <div class="form-control guests">
+                <label for="guests">Guests</label>
+                <input
+                  type="text"
+                  name="guests"
+                  id="guests"
+                  placeholder="Guests"
+                />
+              </div>
+              <button type="submit" class="search-btn">
+                <span class="material-icons"> search </span>
+              </button>
+            </div>
+          </form>
+          <!-- suggestions -->
+          <ul class="suggestions" id="suggestionsList">
+            <li><a href="#">Helsinki</a></li>
+            <li><a href="#">Turku</a></li>
+            <li><a href="#">Vaasa</a></li>
+            <li><a href="#">Vaasa</a></li>
+            <li><a href="#">Vaasa</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="stays">
+        <div class="container">
+          <div class="welcome">
+            <h1>Stays in Finland</h1>
+            <p>12+ stays</p>
+          </div>
+          <p class="loader" style="display: none">Loading...</p>
+          <div class="stays-grid" id="stayList">
+            <!-- inject data via JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
