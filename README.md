@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://flamboyant-dubinsky-6ce3f0.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/P7NHbgzZva0Gt0hOEQ2p">
       Solution
     </a>
     <span> | </span>
@@ -25,6 +25,8 @@
 <br/>
 
 ![screenshot](https://i.ibb.co/34Z0LcS/windbnb.png)
+
+I love airbnb UI, it is so modern and clean. In this challenge, i'm build with a similar UI to airbnb - windbnb.
 
 ### Built With
 
